@@ -1,0 +1,56 @@
+/* ------------------------ Reset CSS ------------------------ */
+*{
+	margin:0;
+	padding:0;
+	font:16px/20px 'Open Sans',sans-serif;
+	color:#666;
+	text-decoration:none;
+	outline:0;
+	border:none;
+	background:transparent;
+}
+div,header,nav,main,section,article,footer,a,button,span,p,form,img{
+	display:block;
+	box-sizing:border-box;
+}
+h1,h2,h3{
+	font-weight:bold;
+	line-height:40px;
+}
+h3{
+	font-size:20px;
+}
+h2{
+	font-size:24px;
+}
+h1{
+	font-size:30px;
+}
+/* ------------------------ Classes Globais ------------------------ */
+.relative{
+	position:relative;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.nav-link{
+	display:table;
+}
+.nav-link>a{
+	display:table-cell;
+	vertical-align:middle;
+	padding:0 20px;
+}
+/* ------------------------ INICIO ------------------------ */
+#container{
+	max-width:1920px;
+	width:100%;
+}
+#main-header{
+	display:flex;
+	justify-content:space-between;
+	width:75%;
+	margin:0 auto;
+	padding:50px 0;
+}

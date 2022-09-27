@@ -1,0 +1,21 @@
+table{
+	width:1200px;
+	margin:0 auto;
+}
+/*
+Seleciona elementos ímpares
+tr:nth-child(odd) td{
+	color:#CCC;
+}
+*/
+/*
+Seleciona elementos pares
+tr:nth-child(even) td{
+	color:#CCC;
+}
+*/
+/*
+Seleciona a partir de ciclos */
+tr:nth-child(2n) td{
+	color:#CCC;
+}

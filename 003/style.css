@@ -1,0 +1,18 @@
+.box-container{
+	display:-webkit-box;
+	/* 
+	Alinha elementos horizontalmente
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:center; 
+	*/
+}
+.box-item{
+	-webkit-box-flex:1;
+	box-sizing:border-box;
+	padding:20px;
+	background:yellow;
+	border:1px solid #000;
+}
+.box-item:last-child{
+	-webkit-box-flex:0;
+}
