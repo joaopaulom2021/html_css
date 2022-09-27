@@ -1,14 +1,22 @@
 .box-container{
+	height:300px;
+	padding:20px;
+	border:1px solid red;
 	display:-webkit-box;
 	/* 
 	Alinha elementos horizontalmente
 	-webkit-box-orient:horizontal;
 	-webkit-box-pack:center; 
 	*/
+	/*
+	Alinha os elementos verticalmente
+	-webkit-box-align:center;
+	*/
 }
 .box-item{
 	-webkit-box-flex:1;
 	box-sizing:border-box;
+	height:50px;
 	padding:20px;
 	background:yellow;
 	border:1px solid #000;
