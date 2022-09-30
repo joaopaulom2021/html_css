@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+	background:transparent;
+	border:0;
+	outline:0;
+}
+body{
+	height:100vh;
+}
+.container{
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+}
+/* Filled Button */
+.action-button{
+	margin-right:12px;
+	padding:10px 20px;
+	background:#3365F3;
+	border:1px solid #3365F3;
+	border-radius:5px;
+	color:#FFF;
+	font-weight:bold;
+	transition:0.5s;
+}
+.action-button:hover{
+	background:transparent;
+	color:#3365F3;
+}
+/* Outline Button */
+.action-button2{
+	margin-right:30px;
+	padding:10px 20px;
+	border:1px solid #3365F3;
+	border-radius:5px;
+	color:#3365F3;
+	font-weight:bold;
+	transition:0.5s;
+}
+.action-button2:hover{
+	background:#3365F3;
+	color:#FFF;
+}
+/* Expanded Button */
+.action-button3{
+	padding:10px 20px;
+	border:1px solid #3365F3;
+	border-radius:5px;
+	background:transparent;
+	color:#3365F3;
+	font-weight:bold;
+	transform:none;
+	transition:transform 2s,background 0.5s;
+}
+.action-button3:hover{
+	background:#3365F3;
+	color:#FFF;
+	transform:scale(1.1,1.1);
+}
