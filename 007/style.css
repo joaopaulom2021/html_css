@@ -11,7 +11,8 @@ body{
 .loading-box{
 	width:10%;
 	text-align:right;
-	animation:carregar 5s;
+	animation:carregar 5s ease-in-out;
+	animation-delay:2s;
 }
 @keyframes carregar{
 	from{width:10%}
