@@ -1,0 +1,11 @@
+body{
+	height:100vh;
+}
+.container{
+	width:1000px;
+	height:100%;
+	margin:auto;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-align:center;
+}
