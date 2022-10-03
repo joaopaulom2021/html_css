@@ -9,3 +9,9 @@ body{
 	-webkit-box-orient:horizontal;
 	-webkit-box-align:center;
 }
+.media-controls{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:center;
+	padding:20px;
+}
