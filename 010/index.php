@@ -8,9 +8,14 @@ include_once '../cima.php';
 			<source src="../../videos/001.mp4" />
 		</video>
 		<div class="media-controls">
-			<a href="#" id="control"><i class="mdi mdi-play-circle-outline mdi-36px"></i></a>
-			<a href="#" id="stop"><i class="mdi mdi-square-outline mdi-36px"></i></a>
-			<a href="#" id="rewind"><i class="mdi mdi-rewind-outline mdi-36px"></i></a>
+			<div class="controls">
+				<a href="#" id="control"><i class="mdi mdi-play-circle-outline mdi-36px"></i></a>
+				<a href="#" id="stop"><i class="mdi mdi-square-outline mdi-36px"></i></a>
+				<a href="#" id="rewind"><i class="mdi mdi-rewind-outline mdi-36px"></i></a>
+			</div>
+			<div class="progress">
+				<hr id="progress-bar" />
+			</div>
 		</div>
 	</div>
 </div>
