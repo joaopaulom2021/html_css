@@ -14,7 +14,7 @@ include_once '../cima.php';
 				<a href="#" id="rewind"><i class="mdi mdi-rewind-outline mdi-36px"></i></a>
 			</div>
 			<div class="progress">
-				<hr id="progress-bar" />
+				<div id="progress-bar"></div>
 			</div>
 		</div>
 	</div>
